@@ -301,7 +301,7 @@ def get_evaluation_bboxes(
     anchors,
     threshold,
     box_format="midpoint",
-    device="cuda",
+    device="cpu",
 ):
     # make sure model is in eval before get bboxes
     model.eval()
